@@ -18,6 +18,8 @@ var jobData = [
     id: "316052390442958860",
     jobs: ["Mime", "Mime", "Mime", "Mime"]
 }];
+var monsterFile = "monsterdata.json";
+var monsterData = [];
 
 bot.on('ready', function () {
     console.log('Logged in as %s - %s\n', bot.username, bot.id);
@@ -26,6 +28,9 @@ bot.on('ready', function () {
     });
     jsonfile.readFile(jobFile, function (err, obj) {
         jobData = obj;
+    });
+    jsonfile.readFile(monsterFile, function (err, obj) {
+        monsterData = obj;
     });
 });
 
@@ -137,6 +142,10 @@ bot.on('message', function (user, userID, channelID, message, event) {
         //job DB
         if (lowMes.indexOf(".jobs") === 0) {
             jobs(user, userID, channelID, message, event);
+        }
+        //monster data search
+        if (lowMes.indexOf(".info") === 0) {
+            info(user, userID, channelID, message, event);
         }
     }
 });
@@ -670,6 +679,32 @@ function jobs(user, userID, channelID, message, event) {
             to: channelID,
             message: "Acceptable syntax: `.jobs lookup @mention` or `.jobs register <wind> <water> <fire> <earth>`. Please ensure you provide jobs when registering. Please delimit with spaces, and keep two-word jobs to one word."
         });
+    }
+}
+
+//monster data query
+function info(user, userID, channelID, message, event) {
+    var args = message.split(" ");
+    var monster = "";
+    // expected args - 0: ".info", 1: query (str), 2..: monster name (str)
+    if (args[1] === undefined) {
+        args[1] = "a"; // prevents crash on no args
+    }
+    if(monsterData[0][args[1]] === undefined) { // no query, try and find monster 
+        monster = args.slice(1, args.length).join(" ") // recreate monster name
+        if (monsterData.filter((x) => {
+            return x.name.includes(monster);
+        } === []) { // didn't find a monster, maybe we searched for RPGe name?
+            if (monsterData.filter((x) => {
+                return x.rpge_name.includes(monster);
+            } === []) { // no monster found :( 
+                bot.sendMessage({
+                    to: channelID,
+                    message: "Sorry, I couldn't find any information on " + monster + "..."
+                });
+            } else { // got an RPGe name
+                ///TODO: stuff goes here
+        }
     }
 }
 
