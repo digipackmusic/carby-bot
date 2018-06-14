@@ -1,4 +1,4 @@
-Hi! I'm Discord!Carbybot, made by AlphaKretin, based off of the IRC!Carbybot made by Kyrosiris! I'm here to make Fiestaing easier!
+Hi! I'm Discord!Carbybot, made by AlphaKretin, forked by DigiPack, based off of the IRC!Carbybot made by Kyrosiris! I'm here to make Fiestaing easier!
 If you have other suggestions for commands, let Kyrosiris or someone with the Robit Helper role know. They'll try to add it.
 Unlike the dumb IRC version of Carbybot, I can accept PMs! Yay!
 
