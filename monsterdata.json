@@ -52,7 +52,7 @@
 		"always": "Potion",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Fight,GblinPnch}"
 	]
 },
@@ -112,7 +112,7 @@
 		"always": "Nothing",
 		"rare": "Potion"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Fight,Specialty}"
 	]
 },
@@ -169,7 +169,7 @@
 		"always": "Potion",
 		"rare": "Potion"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Fight,Specialty}"
 	]
 },
@@ -225,7 +225,7 @@
 		"always": "Nothing",
 		"rare": "Potion"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Fight,Specialty}"
 	]
 },
@@ -289,7 +289,7 @@
 		"always": "Nothing",
 		"rare": "Potion"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Fight",
 		"{Vampire,Fight,Specialty}"
 	]
@@ -345,7 +345,7 @@
 		"always": "Nothing",
 		"rare": "Potion"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Specialty,Fight}"
 	]
 },
@@ -397,7 +397,7 @@
 		"always": "Potion",
 		"rare": "Potion"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Fight"
 	]
 },
@@ -450,7 +450,7 @@
 		"always": "Potion",
 		"rare": "Potion"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Fight,GblinPnch}"
 	]
 },
@@ -505,7 +505,7 @@
 		"always": "Nothing",
 		"rare": "Potion"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Entangle,Specialty}"
 	]
 },
@@ -568,7 +568,7 @@
 		"always": "Nothing",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Fight,Specialty}",
 		"{Fight,Specialty,Aero}"
 	]
@@ -630,7 +630,7 @@
 		"always": "Potion",
 		"rare": "Potion"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Specialty,Specialty,Fight}",
 		"{Specialty,Fight,Fight}",
 		"Change Target:Whole party",
@@ -690,7 +690,7 @@
 		"always": "Nothing",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Condition:No Females Alive{",
 		"     Nothing",
 		"     }",
@@ -751,7 +751,7 @@
 		"always": "Nothing",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Condition:No Females Alive{",
 		"     Nothing",
 		"     }",
@@ -812,7 +812,7 @@
 		"always": "Nothing",
 		"rare": "Soft"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Fight",
 		"React:Fight{",
 		"     {Specialty,Specialty,Nothing}",
@@ -870,7 +870,7 @@
 		"always": "Nothing",
 		"rare": "Potion"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Fight",
 		"{Fight,Fight,Specialty}",
 		"React:Elemental Attacks:Fire{",
@@ -933,7 +933,7 @@
 		"always": "Nothing",
 		"rare": "Potion"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Fight",
 		"{Specialty,Fight,Fight}"
 	]
@@ -988,7 +988,7 @@
 		"always": "Potion",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Fight,Specialty}"
 	]
 },
@@ -1055,7 +1055,7 @@
 		"always": "Maiden's Kiss",
 		"rare": "Maiden's Kiss"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Nothing",
 		"Nothing",
 		"Nothing",
@@ -1132,7 +1132,7 @@
 		"always": "Nothing",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Fight",
 		"{Specialty,Fight,Fight}"
 	]
@@ -1195,7 +1195,7 @@
 		"always": "Potion",
 		"rare": "Potion"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Fight"
 	]
 },
@@ -1257,7 +1257,7 @@
 		"always": "Potion",
 		"rare": "Ether"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Fight,Specialty}",
 		"React:Item:Soft{",
 		"     Change Target:Self",
@@ -1338,7 +1338,7 @@
 		"always": "Nothing",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Fight,Specialty}"
 	]
 },
@@ -1392,7 +1392,7 @@
 		"always": "Potion",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Fight"
 	]
 },
@@ -1450,7 +1450,7 @@
 		"always": "Potion",
 		"rare": "Potion"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Fight,Specialty}"
 	]
 },
@@ -1512,7 +1512,7 @@
 		"always": "Soft",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Fight",
 		"{Fight,Specialty,Beak}"
 	]
@@ -1595,7 +1595,7 @@
 		"always": "Glasses",
 		"rare": "Hi-Potion"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Flash,Specialty}",
 		"React:Item:Soft{",
 		"     Change Target:Self",
@@ -1690,7 +1690,7 @@
 		"always": "Protect Drink",
 		"rare": "Elixir"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Fight,Specialty}",
 		"React:HP Damage{",
 		"     MoonFlut",
@@ -1752,7 +1752,7 @@
 		"always": "Nothing",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Condition:Alone{",
 		"     {Fight,FrogSong,Fight}",
 		"     }",
@@ -1819,7 +1819,7 @@
 		"always": "Mythril Sword",
 		"rare": "Potion"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Fight,Specialty}",
 		"{Fight,Fight,Ice}"
 	]
@@ -1882,7 +1882,7 @@
 		"always": "Rod",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Sleep,Slow,Stop}",
 		"{Cure,Drain,Fight}"
 	]
@@ -1941,7 +1941,7 @@
 		"always": "Mythril Dagger",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Condition:Alone{",
 		"     {Fight,Breath Wing,Breath Wing}",
 		"     }",
@@ -2004,7 +2004,7 @@
 		"always": "Potion",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Fight",
 		"{Fight,Fight,Specialty}"
 	]
@@ -2063,7 +2063,7 @@
 		"always": "Potion",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Fight,Specialty}",
 		"Fight"
 	]
@@ -2125,7 +2125,7 @@
 		"always": "Nothing",
 		"rare": "Elixir"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Fight,Specialty}"
 	]
 },
@@ -2186,7 +2186,7 @@
 		"always": "Potion",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Fight,????}",
 		"{Fight,Fight,Specialty}"
 	]
@@ -2245,7 +2245,7 @@
 		"always": "Nothing",
 		"rare": "Turtle Shell"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Fight,Specialty}",
 		"Fight"
 	]
@@ -2306,7 +2306,7 @@
 		"always": "Nothing",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Needle,Fight}"
 	]
 },
@@ -2371,7 +2371,7 @@
 		"always": "Potion",
 		"rare": "Mythril Armor"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Fight,Specialty}",
 		"Condition:HP < 300{",
 		"     Change Target:Single Enemy, Not self",
@@ -2468,7 +2468,7 @@
 		"always": "Potion",
 		"rare": "Eyedrop"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Condition:Alone{",
 		"     {Flash,Flash,Fight}",
 		"     }",
@@ -2562,7 +2562,7 @@
 		"always": "Hi-Potion",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Fight,Specialty}",
 		"Fight"
 	]
@@ -2642,7 +2642,7 @@
 		"always": "Ether",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Electromagnetic Field,Specialty}",
 		"React:Elemental Attacks:Thunder{",
 		"     Exploder",
@@ -2706,7 +2706,7 @@
 		"always": "Potion",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Fight",
 		"React:Death & Condition:Alone{",
 		"     Unhide Monster: Motor Trap & Motor Trap",
@@ -2762,7 +2762,7 @@
 		"always": "Potion",
 		"rare": "Potion"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Condition:Alone{",
 		"     Display Text: 'Crap!  You stubborn...!!",
 		"     Escape",
@@ -2825,7 +2825,7 @@
 		"always": "Mage Masher",
 		"rare": "Gaia Gear"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Charm,Fight,Fight}",
 		"{Toad,Fight,Fight}"
 	]
@@ -2882,7 +2882,7 @@
 		"always": "Potion",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Fight",
 		"React:Magic:No-Damage Magic{",
 		"     Specialty",
@@ -2951,7 +2951,7 @@
 		"always": "Elixir",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Aero 2,Fight,Fight}",
 		"{Aero 2,Fight,Specialty}",
 		"React:HP Damage{",
@@ -3027,7 +3027,7 @@
 		"always": "Potion",
 		"rare": "Green Beret"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Aero 2,Fight,Fight}",
 		"React:Death{",
 		"     Unhide Monster: Next Page",
@@ -3102,7 +3102,7 @@
 		"always": "Potion",
 		"rare": "Glasses"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{L5 Doom,Fight,Fight}",
 		"React:Death{",
 		"     Unhide Monster: Next Page",
@@ -3175,7 +3175,7 @@
 		"always": "Ether",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Mucus,Fight,Fight}",
 		"React:Death{",
 		"     Unhide Monster: Next Page",
@@ -3250,7 +3250,7 @@
 		"always": "Hi-Potion",
 		"rare": "Stealth Robe"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Fight",
 		"Change Target:Whole party",
 		"MoonFlut",
@@ -3313,7 +3313,7 @@
 		"always": "Potion",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Fight",
 		"{Fight,Specialty,Exploder}"
 	]
@@ -3369,7 +3369,7 @@
 		"always": "Nothing",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Fight",
 		"Reverse Polarity",
 		"Specialty",
@@ -3429,7 +3429,7 @@
 		"always": "Nothing",
 		"rare": "Hi-Potion"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Fight",
 		"Reverse Polarity",
 		"Specialty",
@@ -3493,7 +3493,7 @@
 		"always": "Battle Axe",
 		"rare": "War Hammer"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Fight",
 		"Condition:Alone & HP Damage{",
 		"     Change Target:Whole party",
@@ -3548,7 +3548,7 @@
 		"always": "Silver Bow",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Fight,Specialty}"
 	]
 },
@@ -3615,7 +3615,7 @@
 		"always": "Nothing",
 		"rare": "Speed Drink"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{DrkShock,Fight,Fight}"
 	]
 },
@@ -3684,7 +3684,7 @@
 		"always": "Soft",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Fight,Specialty}",
 		"Fight",
 		"React:Item:Soft{",
@@ -3759,7 +3759,7 @@
 		"always": "Nothing",
 		"rare": "Dragon Fang"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Mini Blaze,Fight,Fight}"
 	]
 },
@@ -3833,7 +3833,7 @@
 		"always": "Ether",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Missile,Mustard Bomb,Blaster}",
 		"{Fight,Specialty,Emission}"
 	]
@@ -3912,7 +3912,7 @@
 		"always": "Nothing",
 		"rare": "Trident"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{AquaRake,Fight,Specialty}"
 	]
 },
@@ -3970,7 +3970,7 @@
 		"always": "Potion",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Fight",
 		"{Spore,Fight,Fight}"
 	]
@@ -4029,7 +4029,7 @@
 		"always": "Nothing",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Escape,Fight,Fight}",
 		"{Quicksand,Fight,Fight}"
 	]
@@ -4088,7 +4088,7 @@
 		"always": "Nothing",
 		"rare": "Javelin"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Fight,Nothing}",
 		"{Fight,Fight,Specialty}"
 	]
@@ -4150,7 +4150,7 @@
 		"always": "Bard's Clothes",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Change Target:Whole party",
 		"{Ice 2,Fire2,Nothing}",
 		"Change Target:Whole party",
@@ -4214,7 +4214,7 @@
 		"always": "Hi-Potion",
 		"rare": "Power Drink"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Fight",
 		"{Fight,Specialty,Nothing}",
 		"Fight",
@@ -4283,7 +4283,7 @@
 		"always": "Soft",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Fight",
 		"{Fight,Fight,Specialty}",
 		"{Fight,Specialty,Nothing}",
@@ -4352,7 +4352,7 @@
 		"always": "Potion",
 		"rare": "Elixir"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Change Target:Whole party",
 		"{Aero 2,Nothing,Nothing}",
 		"{Aero 2,Fight,Fight}",
@@ -4422,7 +4422,7 @@
 		"always": "Maiden's Kiss",
 		"rare": "Lamia's Tiara"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Fight,Nothing}",
 		"Change Target:Single Male",
 		"Allure",
@@ -4485,7 +4485,7 @@
 		"always": "Nothing",
 		"rare": "Hi-Potion"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Nothing,Nothing}",
 		"{FrogSong,Fight,Nothing}",
 		"Fight",
@@ -4551,7 +4551,7 @@
 		"always": "Ether",
 		"rare": "Hi-Potion"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Fight,Specialty}",
 		"{Thunder,Fight,Fight}"
 	]
@@ -4630,7 +4630,7 @@
 		"always": "Nothing",
 		"rare": "Killer Bow"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Poison Breath,Fight,Specialty}",
 		"{Thunder,Fight,Fight}",
 		"React:Death{",
@@ -4695,7 +4695,7 @@
 		"always": "Nothing",
 		"rare": "Ether"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Stomach Acid,Fight}"
 	]
 },
@@ -4755,7 +4755,7 @@
 		"always": "Hi-Potion",
 		"rare": "Potion"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Fight,Bersk}",
 		"{DeathClaw,DeathClaw,Nothing}"
 	]
@@ -4831,7 +4831,7 @@
 		"always": "Nothing",
 		"rare": "Elixir"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Fight,DrkShock}"
 	]
 },
@@ -4889,7 +4889,7 @@
 		"always": "Nothing",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Thread,Fight}"
 	]
 },
@@ -4944,7 +4944,7 @@
 		"always": "Nothing",
 		"rare": "Spear"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Fight,Specialty}"
 	]
 },
@@ -5002,7 +5002,7 @@
 		"always": "Nothing",
 		"rare": "Phoenix Down"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Fight",
 		"{Fight,Sonic Wave,Fight}"
 	]
@@ -5062,7 +5062,7 @@
 		"always": "Potion",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Condition:Alone{",
 		"     {Fight,Fight,Specialty}",
 		"     }",
@@ -5135,7 +5135,7 @@
 		"always": "Revivify",
 		"rare": "Potion"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Fight,Specialty}",
 		"Condition:Status:Party Member:Dead{",
 		"     Change Target:Single Party Member",
@@ -5200,7 +5200,7 @@
 		"always": "Nothing",
 		"rare": "Hi-Potion"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Mucus,Specialty}"
 	]
 },
@@ -5263,7 +5263,7 @@
 		"always": "Eyedrop",
 		"rare": "Antidote"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Stomach Acid,Specialty}",
 		"Fight"
 	]
@@ -5329,7 +5329,7 @@
 		"always": "Nothing",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"????"
 	]
 },
@@ -5390,7 +5390,7 @@
 		"always": "Potion",
 		"rare": "Soft"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Fight,Specialty}",
 		"React:Fight{",
 		"     Specialty",
@@ -5452,7 +5452,7 @@
 		"always": "Nothing",
 		"rare": "Tent"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Maelstrom,Fight,Specialty}"
 	]
 },
@@ -5521,7 +5521,7 @@
 		"always": "Mythril Shield",
 		"rare": "Gold Shield"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Fight,Specialty}",
 		"{Fight,Fight,Nothing}",
 		"{Fight,Fight,Zombie Breath}",
@@ -5598,7 +5598,7 @@
 		"always": "Revivify",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Vampire,Vampire,Nothing}"
 	]
 },
@@ -5656,7 +5656,7 @@
 		"always": "Potion",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Fight,Specialty}"
 	]
 },
@@ -5711,7 +5711,7 @@
 		"always": "Nothing",
 		"rare": "Hi-Potion"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Fight,Specialty}"
 	]
 },
@@ -5781,7 +5781,7 @@
 		"always": "Hi-Potion",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Fight",
 		"{Fight,Breath Wing,Specialty}",
 		"{Fight,Fight,Specialty}",
@@ -5839,7 +5839,7 @@
 		"always": "Tent",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Specialty,Escape}",
 		"Condition:Alone & React:Magic{",
 		"     Unhide Monster: Skull Eater (All)",
@@ -5901,7 +5901,7 @@
 		"always": "Potion",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Mucus,Specialty}"
 	]
 },
@@ -5960,7 +5960,7 @@
 		"always": "Potion",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Entangle,Specialty}"
 	]
 },
@@ -6020,7 +6020,7 @@
 		"always": "Potion",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Condition:HP < 300{",
 		"     Escape",
 		"     }",
@@ -6082,7 +6082,7 @@
 		"always": "Maiden's Kiss",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Condition:Status:Enemy:Dead{",
 		"     Change Target:Single Party Member",
 		"     Dance of the Dead",
@@ -6146,7 +6146,7 @@
 		"always": "Nothing",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Fight,Specialty}",
 		"{Fight,Quake,Specialty}"
 	]
@@ -6210,7 +6210,7 @@
 		"always": "Mythril Hammer",
 		"rare": "Bard's Clothes"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Fight,Nothing}",
 		"{Fight,Hammer,Specialty}"
 	]
@@ -6268,7 +6268,7 @@
 		"always": "Nothing",
 		"rare": "Hi-Potion"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Fight,Specialty}"
 	]
 },
@@ -6330,7 +6330,7 @@
 		"always": "Soft",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Bone,Specialty}",
 		"{Fight,Fight,Nothing}"
 	]
@@ -6397,7 +6397,7 @@
 		"always": "Nothing",
 		"rare": "Gale Bow"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Fight,Specialty}"
 	]
 },
@@ -6461,7 +6461,7 @@
 		"always": "Nothing",
 		"rare": "Dark Matter"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Fight,Nothing}",
 		"{Fight,Fight,Specialty}",
 		"{Fight,Poison Breath,Specialty}"
@@ -6534,7 +6534,7 @@
 		"always": "Potion",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"No Interrupt{",
 		"     Fight",
 		"     Escape",
@@ -6598,7 +6598,7 @@
 		"always": "Soft",
 		"rare": "Soft"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Condition:Alone{",
 		"     Unhide Monster: Golem (2nd form)",
 		"     }",
@@ -6689,7 +6689,7 @@
 		"always": "Soft",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Display Text: Golem:  Thank you!",
 		"Display Text: 'Hey, can I go with you?",
 		"No Clue"
@@ -6760,7 +6760,7 @@
 		"always": "Nothing",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Condition:V00=02{",
 		"     {Bone,Bone,Specialty}",
 		"     }",
@@ -6853,7 +6853,7 @@
 		"always": "Nothing",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Condition:V01=02{",
 		"     {Poison Breath,Poison Breath,Specialty}",
 		"     }",
@@ -6933,7 +6933,7 @@
 		"always": "Speed Drink",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Fight,Specialty}",
 		"React:Physical{",
 		"     {Flash,Nothing,Nothing}",
@@ -7003,7 +7003,7 @@
 		"always": "Nothing",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Condition:Alone{",
 		"     Fight",
 		"     }",
@@ -7063,7 +7063,7 @@
 		"always": "War Hammer",
 		"rare": "Venom Axe"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Fight,Specialty}"
 	]
 },
@@ -7126,7 +7126,7 @@
 		"always": "Nothing",
 		"rare": "Dream Harp"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Time Slip,Specialty}",
 		"Fight"
 	]
@@ -7190,7 +7190,7 @@
 		"always": "Potion",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,L4 Qrter,Nothing}"
 	]
 },
@@ -7250,7 +7250,7 @@
 		"always": "Nothing",
 		"rare": "Hi-Potion"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Fight",
 		"{Fight,Demi,Specialty}",
 		"Fight",
@@ -7322,7 +7322,7 @@
 		"always": "Nothing",
 		"rare": "Partisan"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,GuardOff,Nothing}",
 		"{Fight,Hurricane,Specialty}"
 	]
@@ -7378,7 +7378,7 @@
 		"always": "Nothing",
 		"rare": "Hi-Potion"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Fight,Specialty}",
 		"Change Target:All Enemies, Not self",
 		"Cure2"
@@ -7433,7 +7433,7 @@
 		"always": "Potion",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Fight,Specialty}"
 	]
 },
@@ -7494,7 +7494,7 @@
 		"always": "Nothing",
 		"rare": "Hi-Potion"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Fight,Nothing}",
 		"{Fight,Specialty,Nothing}"
 	]
@@ -7557,7 +7557,7 @@
 		"always": "Nothing",
 		"rare": "Tricorn"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Psych,Nothing,Nothing}",
 		"{Psych,TinySong,Nothing}",
 		"TinySong"
@@ -7637,7 +7637,7 @@
 		"always": "Eyedrop",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Fight,Specialty}",
 		"{Rainbow Wind,Fight,Fight}"
 	]
@@ -7695,7 +7695,7 @@
 		"always": "Nothing",
 		"rare": "Hi-Potion"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Fight,Specialty}",
 		"Change Target:Single Enemy, Not self",
 		"Bersk"
@@ -7759,7 +7759,7 @@
 		"always": "Potion",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Charm,Fight,Specialty}"
 	]
 },
@@ -7825,7 +7825,7 @@
 		"always": "Antidote",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Fight,Nothing}",
 		"{Fight,Breath Wing,Specialty}"
 	]
@@ -7883,7 +7883,7 @@
 		"always": "Nothing",
 		"rare": "Eyedrop"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Fight,Specialty}"
 	]
 },
@@ -7942,7 +7942,7 @@
 		"always": "Potion",
 		"rare": "Hi-Potion"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Fight,Specialty}",
 		"React:Death{",
 		"     Change Target:Single Enemy",
@@ -8010,7 +8010,7 @@
 		"always": "Nothing",
 		"rare": "Wall Ring"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Change Target:Single Enemy with Wall",
 		"{Fire2,Bolt,Nothing}",
 		"Change Target:Single Enemy with Wall",
@@ -8089,7 +8089,7 @@
 		"always": "Potion",
 		"rare": "Hi-Potion"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Fight",
 		"{Aero 3,Fight,Specialty}",
 		"Fight",
@@ -8162,7 +8162,7 @@
 		"always": "Venom Rod",
 		"rare": "Staff of Judgement"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Condition:Alone{",
 		"     {Doom,Break,Nothing}",
 		"     {Break,XZone,Nothing}",
@@ -8231,7 +8231,7 @@
 		"always": "Potion",
 		"rare": "Hi-Potion"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Fight,Specialty}",
 		"React:Item:Soft{",
 		"     Change Target:Self",
@@ -8291,7 +8291,7 @@
 		"always": "Potion",
 		"rare": "Hi-Potion"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Charm,Fight,Specialty}"
 	]
 },
@@ -8350,7 +8350,7 @@
 		"always": "Potion",
 		"rare": "Hi-Potion"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Nothing",
 		"Change Target:Whole party",
 		"Charm",
@@ -8415,7 +8415,7 @@
 		"always": "Potion",
 		"rare": "Hi-Potion"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Fight,Specialty}",
 		"React:HP Damage{",
 		"     Change Target:Whole party",
@@ -8478,7 +8478,7 @@
 		"always": "Nothing",
 		"rare": "Phoenix Down"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Condition:Alone{",
 		"     {Blaster,Fight,Fight}",
 		"     }",
@@ -8546,7 +8546,7 @@
 		"always": "Potion",
 		"rare": "Beastkiller"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Fight,Nothing}",
 		"React:Fight{",
 		"     {Specialty,Nothing,Nothing}",
@@ -8618,7 +8618,7 @@
 		"always": "Dragon Fang",
 		"rare": "Cabin"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Condition:Alone{",
 		"     {Fight,Snowstorm,Snowstorm}",
 		"     {Fight,Snowstorm,Fight}",
@@ -8697,7 +8697,7 @@
 		"always": "Hi-Potion",
 		"rare": "Flame Ring"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Atomic Ray,Specialty}",
 		"{Fight,Atomic Ray,Fight}",
 		"{Fight,Fight,Specialty}"
@@ -8766,7 +8766,7 @@
 		"always": "Thunder Rod",
 		"rare": "Ether"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Thunder,Specialty}"
 	]
 },
@@ -8819,7 +8819,7 @@
 		"always": "Healing Staff",
 		"rare": "Hi-Potion"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Condition:Alone{",
 		"     {Fight,Fight,Specialty}",
 		"     }",
@@ -8880,7 +8880,7 @@
 		"always": "Power Drink",
 		"rare": "Protect Drink"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Bersk,Fight,Specialty}"
 	]
 },
@@ -8940,7 +8940,7 @@
 		"always": "Soft",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Fight",
 		"React:Fight{",
 		"     Needle",
@@ -9004,7 +9004,7 @@
 		"always": "Antidote",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Fight,Nothing}",
 		"React:Fight{",
 		"     {Entangle,Vampire,Nothing}",
@@ -9069,7 +9069,7 @@
 		"always": "Nothing",
 		"rare": "Hi-Potion"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Fight,Nothing}",
 		"{Fight,Fight,Specialty}"
 	]
@@ -9143,7 +9143,7 @@
 		"always": "Nothing",
 		"rare": "Hero Drink"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Aero 3,Fight,Specialty}"
 	]
 },
@@ -9194,7 +9194,7 @@
 		"always": "Potion",
 		"rare": "Hi-Potion"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Fight"
 	]
 },
@@ -9255,7 +9255,7 @@
 		"always": "Nothing",
 		"rare": "Potion"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Nothing",
 		"{Fight,Fight,Specialty}",
 		"React:HP Damage{",
@@ -9325,7 +9325,7 @@
 		"always": "Staff",
 		"rare": "Hi-Potion"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Nothing",
 		"Display Text: Metamorpha:  Change!!",
 		"Unhide Monster: Metamorpha (Random shape?)"
@@ -9381,7 +9381,7 @@
 		"always": "Potion",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"No Interrupt{",
 		"     Change Target:Whole party",
 		"     Ice 2",
@@ -9440,7 +9440,7 @@
 		"always": "Potion",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"No Interrupt{",
 		"     Flame",
 		"     Display Text:  'Change back!!",
@@ -9498,7 +9498,7 @@
 		"always": "Potion",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"No Interrupt{",
 		"     Thunder",
 		"     Display Text:  'Change back!!",
@@ -9556,7 +9556,7 @@
 		"always": "Potion",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"No Interrupt{",
 		"     Specialty",
 		"     Display Text:  'Change back!!",
@@ -9614,7 +9614,7 @@
 		"always": "Potion",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"No Interrupt{",
 		"     Breath Wing",
 		"     Display Text:  'Change back!!",
@@ -9674,7 +9674,7 @@
 		"always": "Potion",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"No Interrupt{",
 		"     FrogSong",
 		"     Display Text:  'Change back!!",
@@ -9734,7 +9734,7 @@
 		"always": "Potion",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"No Interrupt{",
 		"     Flash",
 		"     Display Text:  'Change back!!",
@@ -9794,7 +9794,7 @@
 		"always": "Potion",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"No Interrupt{",
 		"     Aero 3",
 		"     Display Text:  'Change back!!",
@@ -9852,7 +9852,7 @@
 		"always": "Potion",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"No Interrupt{",
 		"     Zombie Breath",
 		"     Display Text:  'Change back!!",
@@ -9913,7 +9913,7 @@
 		"always": "Potion",
 		"rare": "Antidote"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Fight,Nothing}",
 		"{Fight,Specialty,Nothing}"
 	]
@@ -9972,7 +9972,7 @@
 		"always": "Potion",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Specialty,Nothing}",
 		"{Fight,Fight,Specialty}"
 	]
@@ -10035,7 +10035,7 @@
 		"always": "Hi-Potion",
 		"rare": "Thief Glove"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Fight,Specialty}",
 		"No Interrupt{",
 		"     Specialty",
@@ -10107,7 +10107,7 @@
 		"always": "Maiden's Kiss",
 		"rare": "Thornlet"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Specialty,Nothing}",
 		"Change Target:Butz",
 		"{Allure,Allure,Nothing}",
@@ -10178,7 +10178,7 @@
 		"always": "Power Drink",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Specialty,Nothing}",
 		"Fight"
 	]
@@ -10245,7 +10245,7 @@
 		"always": "Nothing",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,GuardOff,Nothing}",
 		"{DrkShock,Specialty,Nothing}",
 		"React:Item:Soft{",
@@ -10332,7 +10332,7 @@
 		"always": "Nothing",
 		"rare": "Phoenix Down"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Fight",
 		"{Fight,Fight,Nothing}",
 		"{Poison Breath,Fight,Nothing}",
@@ -10403,7 +10403,7 @@
 		"always": "Potion",
 		"rare": "Elixir"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Condition:Alone{",
 		"     Display Text: 'Come forth!  Evil one!!",
 		"     Unhide Monster: Random Summoned Monster??",
@@ -10467,7 +10467,7 @@
 		"always": "Hi-Potion",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,AquaRake,Nothing}"
 	]
 },
@@ -10516,7 +10516,7 @@
 		"always": "Hi-Potion",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Specialty,Nothing}",
 		"React:Item:Soft{",
 		"     Change Target:Self",
@@ -10574,7 +10574,7 @@
 		"always": "Power Drink",
 		"rare": "Diamond Armor"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,GuardOff,Specialty}"
 	]
 },
@@ -10623,7 +10623,7 @@
 		"always": "Hero Drink",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Specialty,Nothing}"
 	]
 },
@@ -10680,7 +10680,7 @@
 		"always": "Antidote",
 		"rare": "Diamond Helmet"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Bio,Fight,Specialty}",
 		"React:Death{",
 		"     Change Target:Whole party",
@@ -10749,7 +10749,7 @@
 		"always": "Eyedrop",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Sonic Wave,L3 Flare,Nothing}"
 	]
 },
@@ -10832,7 +10832,7 @@
 		"always": "Nothing",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Doom,Fight,Reaper's Sword}",
 		"{XZone,Fight,Reaper's Sword}"
 	]
@@ -10891,7 +10891,7 @@
 		"always": "Potion",
 		"rare": "Hi-Potion"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Mucus,Fight,Specialty}"
 	]
 },
@@ -10947,7 +10947,7 @@
 		"always": "Potion",
 		"rare": "Hi-Potion"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Thread,Specialty}"
 	]
 },
@@ -11021,7 +11021,7 @@
 		"always": "Silk Robe",
 		"rare": "Doom Axe"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Change Target:Whole party",
 		"{Fire2,MoonFlut,Aero}",
 		"{Fight,Specialty,Fight}"
@@ -11088,7 +11088,7 @@
 		"always": "Nothing",
 		"rare": "Ether"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{L5 Doom,L4 Qrter,L2 Old}",
 		"{L3 Flare,Fight,Specialty}"
 	]
@@ -11146,7 +11146,7 @@
 		"always": "Hi-Potion",
 		"rare": "Mirage Vest"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Charm,Fight,Specialty}"
 	]
 },
@@ -11219,7 +11219,7 @@
 		"always": "Aviskiller",
 		"rare": "Ether"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Fight",
 		"{Fight,Fight,Specialty}",
 		"Fight",
@@ -11287,7 +11287,7 @@
 		"always": "Power Ring",
 		"rare": "Dancing Dagger"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Strange Dance,Specialty}"
 	]
 },
@@ -11351,7 +11351,7 @@
 		"always": "Nothing",
 		"rare": "Revivify"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Fight,Specialty}"
 	]
 },
@@ -11412,7 +11412,7 @@
 		"always": "Katana",
 		"rare": "Ice Shield"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Fight,Specialty}"
 	]
 },
@@ -11477,7 +11477,7 @@
 		"always": "Nothing",
 		"rare": "Ether"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Size,Cure2,Nothing}",
 		"{Charm,Shell,Nothing}",
 		"{Scan,Dispel,Nothing}",
@@ -11554,7 +11554,7 @@
 		"always": "Potion",
 		"rare": "Healing Staff"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Qrter,Slow,Regen}",
 		"{Float,Demi,Nothing}",
 		"{Comet,Slow2,Nothing}",
@@ -11632,7 +11632,7 @@
 		"always": "Elixir",
 		"rare": "Thunder Whip"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Venom,Toad,Nothing}",
 		"{Fire2,Bolt2,Nothing}",
 		"{Ice 2,Fire3,Nothing}",
@@ -11698,7 +11698,7 @@
 		"always": "Power Drink",
 		"rare": "Flame Shield"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Fight",
 		"React:Physical{",
 		"     Specialty",
@@ -11765,7 +11765,7 @@
 		"always": "Giant Drink",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Fight,Specialty}"
 	]
 },
@@ -11821,7 +11821,7 @@
 		"always": "Speed Drink",
 		"rare": "Elven Bow"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Fight,Specialty}"
 	]
 },
@@ -11883,7 +11883,7 @@
 		"always": "Potion",
 		"rare": "Angel Ring"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Thread,Sonic Wave,Image(2)}",
 		"{Magnet,Circle,Fight}"
 	]
@@ -11939,7 +11939,7 @@
 		"always": "Potion",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Fight,Specialty}"
 	]
 },
@@ -12008,7 +12008,7 @@
 		"always": "Hi-Potion",
 		"rare": "Double Lance"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Nothing,Nothing}",
 		"{Fight,Break,Nothing}",
 		"{Fight,Break,Break}",
@@ -12074,7 +12074,7 @@
 		"always": "Nothing",
 		"rare": "Hi-Potion"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Fight",
 		"{Fight,Fight,Specialty}",
 		"React:Elemental Attacks:Fire{",
@@ -12140,7 +12140,7 @@
 		"always": "Antidote",
 		"rare": "Staff of Judgement"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Mini Blaze,Specialty}"
 	]
 },
@@ -12196,7 +12196,7 @@
 		"always": "Potion",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Quicksand,Specialty}"
 	]
 },
@@ -12274,7 +12274,7 @@
 		"always": "Potion",
 		"rare": "Hi-Potion"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Mucus,Fight,Specialty}",
 		"React:Fight{",
 		"     No Interrupt{",
@@ -12350,7 +12350,7 @@
 		"always": "Potion",
 		"rare": "Hi-Potion"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Stomach Acid,Fight,Specialty}",
 		"React:Fight{",
 		"     {Mucus,Entangle,Nothing}",
@@ -12429,7 +12429,7 @@
 		"always": "Potion",
 		"rare": "Hi-Potion"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Fight",
 		"{Fight,Fight,Dynamo}",
 		"{Fight,Fight,Specialty}",
@@ -12505,7 +12505,7 @@
 		"always": "Nothing",
 		"rare": "Beastkiller"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Condition:Status:Ally:Dead{",
 		"     Unhide Monster: ",
 		"     Delta Attack",
@@ -12583,7 +12583,7 @@
 		"always": "Potion",
 		"rare": "Hi-Potion"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Condemn,Fight,Specialty}",
 		"React:Fight{",
 		"     Condemn",
@@ -12647,7 +12647,7 @@
 		"always": "Potion",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Vampire,Specialty}"
 	]
 },
@@ -12711,7 +12711,7 @@
 		"always": "Potion",
 		"rare": "Protect Drink"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Spore,Specialty}"
 	]
 },
@@ -12770,7 +12770,7 @@
 		"always": "Plumed Hat",
 		"rare": "Elixir"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Condition:Enemy Position = 08{",
 		"     No Interrupt{",
 		"          Specialty",
@@ -12854,7 +12854,7 @@
 		"always": "Potion",
 		"rare": "Hi-Potion"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Fight,Specialty}"
 	]
 },
@@ -12910,7 +12910,7 @@
 		"always": "Bandana",
 		"rare": "Hero Drink"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Condition:Alone{",
 		"     Display Text: Charging up!",
 		"     Nothing",
@@ -12986,7 +12986,7 @@
 		"always": "Maiden's Kiss",
 		"rare": "Man Eater"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Condition:Alone{",
 		"     Doom",
 		"     }",
@@ -13057,7 +13057,7 @@
 		"always": "Flame Scroll",
 		"rare": "Dragon Fang"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Condition:Status:Toad{",
 		"     Nothing",
 		"     }",
@@ -13123,7 +13123,7 @@
 		"always": "Thunder Scroll",
 		"rare": "Dragon Fang"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Condition:Status:Toad{",
 		"     Nothing",
 		"     }",
@@ -13186,7 +13186,7 @@
 		"always": "Water Scroll",
 		"rare": "Dragon Fang"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Condition:Status:Toad{",
 		"     Nothing",
 		"     }",
@@ -13247,7 +13247,7 @@
 		"always": "Hi-Potion",
 		"rare": "Flame Shield"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Fight,Specialty}",
 		"React:Magic{",
 		"     Exploder",
@@ -13306,7 +13306,7 @@
 		"always": "Turtle Shell",
 		"rare": "Angel Ring"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Aero 3,Specialty}"
 	]
 },
@@ -13365,7 +13365,7 @@
 		"always": "Revivify",
 		"rare": "Magus Hat"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Roulette"
 	]
 },
@@ -13422,7 +13422,7 @@
 		"always": "Potion",
 		"rare": "Hi-Potion"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Quake,Specialty}"
 	]
 },
@@ -13478,7 +13478,7 @@
 		"always": "Hi-Potion",
 		"rare": "Potion"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Condition:Alone{",
 		"     {Fight,Stomach Acid,Nothing}",
 		"     }",
@@ -13549,7 +13549,7 @@
 		"always": "Ancient Sword",
 		"rare": "Defender"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Maelstrom,Specialty}",
 		"{Maelstrom,Fight,Maelstrom}"
 	]
@@ -13614,7 +13614,7 @@
 		"always": "Wall Ring",
 		"rare": "Ribbon"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Spore,Specialty}",
 		"React:Fight{",
 		"     {Hug,FrogSong,Nothing}",
@@ -13679,7 +13679,7 @@
 		"always": "Rainbow Suit",
 		"rare": "Coral Ring"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Roulette,Specialty}",
 		"React:Fight{",
 		"     {Dynamo,Allure,Nothing}",
@@ -13745,7 +13745,7 @@
 		"always": "Red Shoes",
 		"rare": "Elf Cape"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Strange Dance,Strange Dance}",
 		"{Fight,Strange Dance,Specialty}",
 		"React:Fight{",
@@ -13825,7 +13825,7 @@
 		"always": "Nothing",
 		"rare": "Hi-Potion"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Display Text: 'Gimme an Elixir pleeease!",
 		"Remedy",
 		"React:Item:Elixir{",
@@ -13899,7 +13899,7 @@
 		"always": "Eyedrop",
 		"rare": "Elixir"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Nothing,Nothing}",
 		"{Fight,Fight,Specialty}",
 		"{WhiteWind,Fight,Nothing}",
@@ -13968,7 +13968,7 @@
 		"always": "Hi-Potion",
 		"rare": "Air Lancet"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Condition:Alone{",
 		"     {Fight,Spore,Fight}",
 		"     }",
@@ -14039,7 +14039,7 @@
 		"always": "Dark Matter",
 		"rare": "Soft"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Condition:Alone{",
 		"     {Fight,Demon's Eye,Specialty}",
 		"     }",
@@ -14116,7 +14116,7 @@
 		"always": "Iron Helmet",
 		"rare": "Iron Armor"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Fight,Fight}",
 		"{Rocket Punch,Hurricane,Fight}",
 		"{Fight,Rocket Punch,Fight}",
@@ -14178,7 +14178,7 @@
 		"always": "Mythril Helmet",
 		"rare": "Enhancer"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Fight,Specialty}",
 		"Change Target:Single Party Member",
 		"Dance of the Dead",
@@ -14249,7 +14249,7 @@
 		"always": "Hero Drink",
 		"rare": "Thor's Hammer"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{DeathClaw,DeathClaw,Fight}"
 	]
 },
@@ -14308,7 +14308,7 @@
 		"always": "Phoenix Down",
 		"rare": "Drain Sword"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Nothing",
 		"Nothing",
 		"Fight",
@@ -14384,7 +14384,7 @@
 		"always": "Speed Drink",
 		"rare": "Lillith Rod"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Nothing",
 		"{Psych,FrogSong,Nothing}",
 		"Fight",
@@ -14448,7 +14448,7 @@
 		"always": "Revivify",
 		"rare": "Bone Mail"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Condition:HP < 3000{",
 		"     {Zombie Powder,Zombie Powder,Fight}",
 		"     }",
@@ -14516,7 +14516,7 @@
 		"always": "Shuriken",
 		"rare": "Forged Sword"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Fight,Nothing}",
 		"{Fight,Fight,Specialty}",
 		"React:Fight{",
@@ -14580,7 +14580,7 @@
 		"always": "Dragon Fang",
 		"rare": "Power Drink"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Flame,Specialty}",
 		"{Fight,Emission,Specialty}",
 		"React:Physical{",
@@ -14652,7 +14652,7 @@
 		"always": "Trident",
 		"rare": "Artemis's Bow"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Breath Wing,Nothing}",
 		"{Fight,Breath Wing,Specialty}"
 	]
@@ -14715,7 +14715,7 @@
 		"always": "Hi-Potion",
 		"rare": "Aegis Shield"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Condition:Alone{",
 		"     {Atomic Ray,Blaze,Electric Shock}",
 		"     }",
@@ -14785,7 +14785,7 @@
 		"always": "Potion",
 		"rare": "Ether"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Targeting",
 		"{L5 Doom,L4 Qrter,L2 Old}",
 		"Targeting",
@@ -14852,7 +14852,7 @@
 		"always": "Green Beret",
 		"rare": "Guardian"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,MindBlst,Nothing}",
 		"React:HP Damage{",
 		"     {MindBlst,MindBlst,Nothing}",
@@ -14926,7 +14926,7 @@
 		"always": "Wall Ring",
 		"rare": "Cursed Ring"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Condition:Alone{",
 		"     No Interrupt{",
 		"          {Fire3,Bolt3,Ice 3}",
@@ -15008,7 +15008,7 @@
 		"always": "Ether",
 		"rare": "Crystal Shield"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Fight,Specialty}",
 		"{Fight,Dynamo,Specialty}"
 	]
@@ -15079,7 +15079,7 @@
 		"always": "Flame Scroll",
 		"rare": "Water Scroll"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Condition:V00=01{",
 		"     {Terminate,Nothing,Nothing}",
 		"     No Interrupt{",
@@ -15167,7 +15167,7 @@
 		"always": "Elixir",
 		"rare": "Dragoon Spear"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Breath Wing,Breath Wing,Fight}"
 	]
 },
@@ -15227,7 +15227,7 @@
 		"always": "Turtle Shell",
 		"rare": "Flame Toungue"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Fight,Nothing}",
 		"React:HP Damage{",
 		"     {Demon's Eye,Sonic Wave,Nothing}",
@@ -15285,7 +15285,7 @@
 		"always": "Cabin",
 		"rare": "Tempest Sword"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Fight,Specialty}"
 	]
 },
@@ -15345,7 +15345,7 @@
 		"always": "Potion",
 		"rare": "Potion"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Fight,Specialty}"
 	]
 },
@@ -15402,7 +15402,7 @@
 		"always": "Nothing",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Fight,Specialty}"
 	]
 },
@@ -15463,7 +15463,7 @@
 		"always": "Nothing",
 		"rare": "Soft"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Fight,Specialty}"
 	]
 },
@@ -15533,7 +15533,7 @@
 		"always": "Nothing",
 		"rare": "Trident"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Fight,Specialty}",
 		"{Fight,Breath Wing,Specialty}"
 	]
@@ -15592,7 +15592,7 @@
 		"always": "Antidote",
 		"rare": "Hi-Potion"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Fight,Specialty}"
 	]
 },
@@ -15651,7 +15651,7 @@
 		"always": "Potion",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Fight,Specialty}"
 	]
 },
@@ -15715,7 +15715,7 @@
 		"always": "Maiden's Kiss",
 		"rare": "Glasses"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Fight,Specialty}"
 	]
 },
@@ -15775,7 +15775,7 @@
 		"always": "Potion",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Fight,Specialty}"
 	]
 },
@@ -15842,7 +15842,7 @@
 		"always": "Hi-Potion",
 		"rare": "Murasame"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Breath Wing,Fight,Breath Wing}",
 		"{Breath Wing,Fight,Zombie Breath}"
 	]
@@ -15899,7 +15899,7 @@
 		"always": "Hi-Potion",
 		"rare": "Defender"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Fight,Specialty}"
 	]
 },
@@ -15964,7 +15964,7 @@
 		"always": "Dark Matter",
 		"rare": "Rune Edge"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Fight,Specialty}"
 	]
 },
@@ -16012,7 +16012,7 @@
 		"always": "Nothing",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Fight,Specialty}"
 	]
 },
@@ -16067,7 +16067,7 @@
 		"always": "Full Moon",
 		"rare": "Rising Sun"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Fight,Specialty}"
 	]
 },
@@ -16160,7 +16160,7 @@
 		"always": "Potion",
 		"rare": "Hi-Potion"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Fight",
 		"React:Death{",
 		"     Quake",
@@ -16276,7 +16276,7 @@
 		"always": "Nothing",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Nothing"
 	]
 },
@@ -16324,7 +16324,7 @@
 		"always": "Nothing",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Fight"
 	]
 },
@@ -16377,7 +16377,7 @@
 		"always": "Nothing",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Fight"
 	]
 },
@@ -16442,7 +16442,7 @@
 		"always": "Potion",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Breath Wing,Fight,Breath Wing}",
 		"{Breath Wing,Fight,Breath Wing}",
 		"Unhide Monster: WingRaptor (2nd form)"
@@ -16509,7 +16509,7 @@
 		"always": "Potion",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Nothing",
 		"Nothing",
 		"No Interrupt{",
@@ -16599,7 +16599,7 @@
 		"always": "Potion",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Specialty,Specialty}",
 		"{Fight,Tailscrew,Specialty}",
 		"{Fight,Tailscrew,Specialty}"
@@ -16670,7 +16670,7 @@
 		"always": "Nothing",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Mute,Slow,Haste}",
 		"{Cure,Ice,Scan}",
 		"{Armor,Sleep,Bolt}",
@@ -16750,7 +16750,7 @@
 		"always": "Nothing",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Specialty,Fight}",
 		"{Fight,Specialty,Fight}",
 		"{Fight,Specialty,Specialty}",
@@ -16814,7 +16814,7 @@
 		"always": "Nothing",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Specialty,Fight}"
 	]
 },
@@ -16888,7 +16888,7 @@
 		"always": "Nothing",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Condition:V00=00 & HP < 300{",
 		"     No Interrupt{",
 		"          Display Text: Magisa:  Honey, a job for you!",
@@ -16959,7 +16959,7 @@
 		"always": "Potion",
 		"rare": "Hi-Potion"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Condition:Status:Self:Toad{",
 		"     Change Target:Self",
 		"     Toad",
@@ -17028,7 +17028,7 @@
 		"always": "Mythril Sword",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Fight,Specialty}"
 	]
 },
@@ -17104,7 +17104,7 @@
 		"always": "Hi-Potion",
 		"rare": "Phoenix Down"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Change Target:Whole Front Row Party",
 		"Ice 2",
 		"Change Target:Whole Back Row Party",
@@ -17192,7 +17192,7 @@
 		"always": "Nothing",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Specialty,Flame}",
 		"React:HP Damage{",
 		"     No Interrupt{",
@@ -17287,7 +17287,7 @@
 		"always": "Nothing",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Fight,Specialty}",
 		"React:HP Damage{",
 		"     No Interrupt{",
@@ -17379,7 +17379,7 @@
 		"always": "Nothing",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Change Target:Self",
 		"Fire2",
 		"React:HP Damage{",
@@ -17441,7 +17441,7 @@
 		"always": "Hero Drink",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,DeathClaw,Specialty}",
 		"{DeathClaw,DeathClaw,Specialty}"
 	]
@@ -17496,7 +17496,7 @@
 		"always": "Potion",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Condition:Alone{",
 		"     Display Text: 'Th- this guy's....",
 		"     Display Text: 'He's not just a Sergeant!",
@@ -17566,7 +17566,7 @@
 		"always": "Potion",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Condition:Alone?{",
 		"     Escape",
 		"     }",
@@ -17641,7 +17641,7 @@
 		"always": "Phoenix Down",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Flame,Fire2,Fire2}",
 		"{Flame,Fight,Specialty}",
 		"React:Death{",
@@ -17734,7 +17734,7 @@
 		"always": "Luck Mallet",
 		"rare": "Dark Matter"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Thread,Hammer,Fight}",
 		"{Fight,Charm,Wind Slash}",
 		"{Hammer,Fight,Thread}",
@@ -17841,7 +17841,7 @@
 		"always": "Nothing",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Quicksand,Quicksand}",
 		"Condition:??{",
 		"     Change Target:Self",
@@ -17922,7 +17922,7 @@
 		"always": "Nothing",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Nothing",
 		"React:Physical{",
 		"     Demi",
@@ -17999,7 +17999,7 @@
 		"always": "Nothing",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Unhide Monster: Sandworm (Random Position?)",
 		"Unhide Monster: Sandworm (Random Position?)",
 		"Unhide Monster: Sandworm (Random Position?)",
@@ -18067,7 +18067,7 @@
 		"always": "Coral Sword",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Tailscrew,Tailscrew,Fight}",
 		"{Tailscrew,Tailscrew,Fight}",
 		"{Tailscrew,Mucus,Fight}"
@@ -18143,7 +18143,7 @@
 		"always": "Hi-Potion",
 		"rare": "Hi-Potion"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Bolt2,Electric Shock}",
 		"{Bolt2,Flash,Fight}",
 		"{Fight,Bolt2,Electric Shock}",
@@ -18225,7 +18225,7 @@
 		"always": "Protect Drink",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"No Interrupt{",
 		"     Fight",
 		"     Fight",
@@ -18308,7 +18308,7 @@
 		"always": "Potion",
 		"rare": "Ether"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Emission"
 	]
 },
@@ -18383,7 +18383,7 @@
 		"always": "Potion",
 		"rare": "Ether"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Missile,Rocket Punch,Nothing}",
 		"{Missile,Missile,Rocket Punch}"
 	]
@@ -18461,7 +18461,7 @@
 		"always": "Ether",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Valiant Attack",
 		"React:HP Damage & HP < 10000{",
 		"     Change Target:Self",
@@ -18542,7 +18542,7 @@
 		"always": "Ether",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Valiant Attack",
 		"React:HP Damage & HP < 10000{",
 		"     Change Target:Self",
@@ -18627,7 +18627,7 @@
 		"always": "Ether",
 		"rare": "Elixir"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Condition:V00=01{",
 		"     Display Text: Filling Multi-Surge Beam energy",
 		"     Nothing",
@@ -18737,7 +18737,7 @@
 		"always": "Nothing",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Breath Wing,Specialty}",
 		"React:Death{",
 		"     Unhide Monster: ArchaeAvis (2nd form)",
@@ -18819,7 +18819,7 @@
 		"always": "Nothing",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Blaze,Specialty}",
 		"React:Death{",
 		"     Unhide Monster: ArchaeAvis (3rd form)",
@@ -18903,7 +18903,7 @@
 		"always": "Nothing",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Flame,Specialty}",
 		"React:Death{",
 		"     Unhide Monster: ArchaeAvis (4th form)",
@@ -18985,7 +18985,7 @@
 		"always": "Nothing",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Thunder,Specialty}",
 		"React:Death{",
 		"     No Interrupt{",
@@ -19083,7 +19083,7 @@
 		"always": "Nothing",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Breath Wing,Maelstrom,Specialty}",
 		"{Entangle,Fight,Specialty}",
 		"{Flame,Maelstrom,Specialty}",
@@ -19156,7 +19156,7 @@
 		"always": "Dragon Fang",
 		"rare": "Wind Spear"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{AquaRake,Fight,Specialty}",
 		"{AquaRake,Blaze,Blaze}"
 	]
@@ -19230,7 +19230,7 @@
 		"always": "Potion",
 		"rare": "Earth Hammer"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Fight,Specialty}",
 		"{Fight,Earth Shaker,Specialty}",
 		"React:Death{",
@@ -19296,7 +19296,7 @@
 		"always": "Nothing",
 		"rare": "Eyedrop"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Nothing,Nothing",
 		"{Fight,Specialty,Exploder}",
 		"React:Death{",
@@ -19367,7 +19367,7 @@
 		"always": "Nothing",
 		"rare": "Gaia Gear"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Hurricane,Fight}",
 		"{Fight,Fight,Specialty}"
 	]
@@ -19427,7 +19427,7 @@
 		"always": "Nothing",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Display Text: Gilgamesh:  Hah!",
 		"{Fight,Fight,Specialty}",
 		"Display Text: Gilgamesh:  Hah!",
@@ -19494,7 +19494,7 @@
 		"always": "Nothing",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Fight,Specialty}"
 	]
 },
@@ -19552,7 +19552,7 @@
 		"always": "Nothing",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Fight,Specialty}"
 	]
 },
@@ -19615,7 +19615,7 @@
 		"always": "Nothing",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Mustard Bomb,Specialty}"
 	]
 },
@@ -19674,7 +19674,7 @@
 		"always": "Nothing",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Fight,Specialty}"
 	]
 },
@@ -19751,7 +19751,7 @@
 		"always": "Hero Drink",
 		"rare": "Trident"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Condition:V00=01{",
 		"     {Fight,Jump,Electric Shock}",
 		"     {Fight,Fight,Jump}",
@@ -19846,7 +19846,7 @@
 		"always": "Nothing",
 		"rare": "Gold Shield"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Fight,Specialty}",
 		"React:??{",
 		"     Poison Breath",
@@ -19917,7 +19917,7 @@
 		"always": "Hi-Potion",
 		"rare": "Power Ring"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Hurricane,Specialty}",
 		"{Fight,Vampire,Specialty}"
 	]
@@ -19982,7 +19982,7 @@
 		"always": "Nothing",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Condition:V00=01 & Alone{",
 		"     Unhide Monster: HiryuuFlowr (All)",
 		"     }",
@@ -20054,7 +20054,7 @@
 		"always": "Nothing",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Specialty,Specialty,Nothing}"
 	]
 },
@@ -20110,7 +20110,7 @@
 		"always": "Nothing",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Specialty,Specialty,Nothing}"
 	]
 },
@@ -20166,7 +20166,7 @@
 		"always": "Nothing",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Specialty,Specialty,Nothing}"
 	]
 },
@@ -20222,7 +20222,7 @@
 		"always": "Nothing",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Specialty,Specialty,Nothing}"
 	]
 },
@@ -20278,7 +20278,7 @@
 		"always": "Nothing",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Specialty,Specialty,Nothing}"
 	]
 },
@@ -20334,7 +20334,7 @@
 		"always": "Potion",
 		"rare": "Hi-Potion"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Fight,Specialty}",
 		"{Fight,Fight,GblinPnch}"
 	]
@@ -20404,7 +20404,7 @@
 		"always": "Genji Glove",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Condition:V00=01{",
 		"     {Fight,Missile,Fight}",
 		"     {Fight,Fight,Specialty}",
@@ -20511,7 +20511,7 @@
 		"always": "Green Beret",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Aero 2,Specialty}",
 		"{Vampire,Missile,Wind Slash}",
 		"{Fight,Fight,Specialty}",
@@ -20606,7 +20606,7 @@
 		"always": "Ether",
 		"rare": "Flail"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Condition:Status:Party Member1:Dead & Party Member1 Position=80{",
 		"     Change Target:Party Member1",
 		"     Wormhole",
@@ -20724,7 +20724,7 @@
 		"always": "Nothing",
 		"rare": "Phoenix Down"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Fight,Drain}",
 		"React:HP Damage{",
 		"     Change Target:Last Attacker",
@@ -20800,7 +20800,7 @@
 		"always": "Nothing",
 		"rare": "Elixir"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Condition:HP < 3000{",
 		"     Change Target:Whole party",
 		"     Fire3",
@@ -20876,7 +20876,7 @@
 		"always": "Nothing",
 		"rare": "Elixir"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Condition:HP < 3000{",
 		"     Earth Shaker",
 		"     }",
@@ -20953,7 +20953,7 @@
 		"always": "Nothing",
 		"rare": "Elixir"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Condition:HP < 3000{",
 		"     AquaRake",
 		"     }",
@@ -21030,7 +21030,7 @@
 		"always": "Nothing",
 		"rare": "Elixir"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Condition:HP < 3000{",
 		"     Change Target:Whole party",
 		"     Aero 3",
@@ -21111,7 +21111,7 @@
 		"always": "Nothing",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Condition:HP < 1{",
 		"     Terminate",
 		"     }",
@@ -21242,7 +21242,7 @@
 		"always": "Wall Ring",
 		"rare": "Giant Drink"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Condition:HP < 3000{",
 		"     Change Target:Self",
 		"     {Break,XZone,Doom}",
@@ -21333,7 +21333,7 @@
 		"always": "Wall Ring",
 		"rare": "Giant Drink"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Cure2",
 		"Unhide Monster: Carbunkle (1st form)"
 	]
@@ -21417,7 +21417,7 @@
 		"always": "Wall Ring",
 		"rare": "Giant Drink"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fire3,Fight,Allure}",
 		"{Bolt3,Fight,Specialty}",
 		"{Ice 3,Allure,Specialty}",
@@ -21508,7 +21508,7 @@
 		"always": "Hi-Potion",
 		"rare": "Gauntlet"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Condition:V00=01{",
 		"     Display Text: 'Makes me kinda happy...",
 		"     {Hurricane,Fight,FrogSong}",
@@ -21607,7 +21607,7 @@
 		"always": "Genji Helmet",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Condition:V00=02{",
 		"     Display Text: Exdeath:  You worthless...",
 		"     Display Text: 'To the Cleft of Dimension!!",
@@ -21743,7 +21743,7 @@
 		"always": "Elixir",
 		"rare": "Staff of Judgement"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Condition:HP < 16000{",
 		"     No Interrupt{",
 		"          {Fight,Specialty,Nothing}",
@@ -21850,7 +21850,7 @@
 		"always": "Hi-Potion",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Sonic Wave,Specialty}",
 		"{Fight,Sonic Wave,Specialty}",
 		"{Fight,Sonic Wave,Specialty}",
@@ -21921,7 +21921,7 @@
 		"always": "Potion",
 		"rare": "Hi-Potion"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Condition:Alone{",
 		"     {Fight,Dance of the Dead,Specialty}",
 		"     }",
@@ -21988,7 +21988,7 @@
 		"always": "Antidote",
 		"rare": "Hi-Potion"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Entangle,Specialty}",
 		"{Psych,Entangle,Specialty}"
 	]
@@ -22059,7 +22059,7 @@
 		"always": "Hi-Potion",
 		"rare": "Revivify"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Strange Dance,Specialty}",
 		"{Fight,Strange Dance,Specialty}"
 	]
@@ -22138,7 +22138,7 @@
 		"always": "Ether",
 		"rare": "Gauntlet"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Condition:Status:Butz:Jumping{",
 		"     Change Target:Butz",
 		"     Interceptor Rocket",
@@ -22238,7 +22238,7 @@
 		"always": "Leather Clothes",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Fight,Nothing}",
 		"{Bolt3,Fight,Nothing}",
 		"{Ice 3,Fight,Nothing}",
@@ -22328,7 +22328,7 @@
 		"always": "Leather Helmet",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Nothing,Nothing}",
 		"{Bolt3,Nothing,Nothing}",
 		"{Fire3,Nothing,Nothing}",
@@ -22418,7 +22418,7 @@
 		"always": "Leather Shoes",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Nothing,Nothing}",
 		"{Ice 3,Nothing,Nothing}",
 		"{Fire3,Nothing,Nothing}",
@@ -22511,7 +22511,7 @@
 		"always": "Leather Shield",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fire3,Nothing,Nothing}",
 		"{Ice 3,Nothing,Nothing}",
 		"{Bolt3,Nothing,Nothing}",
@@ -22588,7 +22588,7 @@
 		"always": "Nothing",
 		"rare": "Guard Ring"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Nothing",
 		"True Edge",
 		"{Fight,Fight,Specialty}",
@@ -22658,7 +22658,7 @@
 		"always": "Potion",
 		"rare": "Phoenix Down"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Condition:Alone{",
 		"     Unhide Monster: Gargoyle",
 		"     }",
@@ -22727,7 +22727,7 @@
 		"always": "Phoenix Down",
 		"rare": "Elixir"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{",
 		"     Condition:Status:All Allies:??{",
 		"     Escape",
@@ -22809,7 +22809,7 @@
 		"always": "Soft",
 		"rare": "Elixir"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Condition:Status:Enemy:Dead{",
 		"     Unhide Monster: ",
 		"     Delta Attack",
@@ -22884,7 +22884,7 @@
 		"always": "Soft",
 		"rare": "Elixir"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Condition:Status:Enemy:Dead{",
 		"     Unhide Monster: ",
 		"     Delta Attack",
@@ -22957,7 +22957,7 @@
 		"always": "Soft",
 		"rare": "Elixir"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Condition:Status:Enemy:Dead{",
 		"     Unhide Monster: ",
 		"     Delta Attack",
@@ -23061,7 +23061,7 @@
 		"always": "Potion",
 		"rare": "Corna Jar"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Condition:HP < 4000{",
 		"     {Bolt3,Fire3,Ice 3}",
 		"     }",
@@ -23168,7 +23168,7 @@
 		"always": "Leather Shoes",
 		"rare": "Pinwheel"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Fight,Specialty}",
 		"React:Death{",
 		"     Display Text: Minotaur:  Holy...the magic",
@@ -23260,7 +23260,7 @@
 		"always": "Elixir",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Fight,Specialty}",
 		"{Fight,Fight,Specialty}",
 		"No Interrupt{",
@@ -23362,7 +23362,7 @@
 		"always": "Dark Matter",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Condition:Status:All Enemies:??{",
 		"     No Clue",
 		"     }",
@@ -23457,7 +23457,7 @@
 		"always": "Leather Clothes",
 		"rare": "Gold Hairpin"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Condition:V01=02{",
 		"     No Interrupt{",
 		"          Meteo",
@@ -23632,7 +23632,7 @@
 		"always": "Dragon Fang",
 		"rare": "Dragon Fang"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Condition:HP < 10000{",
 		"     {Mega Flare,Mega Flare,Fight}",
 		"     }",
@@ -23738,7 +23738,7 @@
 		"always": "Plumed Hat",
 		"rare": "Wall Ring"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Condition:Status:Party Member:Wall{",
 		"     Change Target:Single party member",
 		"     {Haste,Armor,Regen}",
@@ -23848,7 +23848,7 @@
 		"always": "Nothing",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Atomic Ray,Delta Attack,Blaster}",
 		"Surge Beam",
 		"{Rainbow Wind,Emission,Atomic Ray}",
@@ -23943,7 +23943,7 @@
 		"always": "Soot",
 		"rare": "Soot"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Condition:V00=01{",
 		"     No Interrupt{",
 		"          Display Text: Apanda:  -shiver- -tremble-",
@@ -24036,7 +24036,7 @@
 		"always": "Potion",
 		"rare": "Revivify"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Circle,Specialty}",
 		"React:Death{",
 		"     Display Text: Alte Roite shows its true form!",
@@ -24124,7 +24124,7 @@
 		"always": "Turtle Shell",
 		"rare": "Dragoon Spear"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Breath Wing,Maelstrom,Specialty}",
 		"{Entangle,Fight,Specialty}",
 		"{Flame,Maelstrom,Specialty}",
@@ -24201,7 +24201,7 @@
 		"always": "Light Staff",
 		"rare": "Aegis Shield"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Condition:V00=01{",
 		"     {Fight,Dynamo,Specialty}",
 		"     {Fight,Fight,Dispel}",
@@ -24302,7 +24302,7 @@
 		"always": "Nothing",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Nothing"
 	]
 },
@@ -24387,7 +24387,7 @@
 		"always": "Nothing",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Nothing"
 	]
 },
@@ -24438,7 +24438,7 @@
 		"always": "Nothing",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Fight,Specialty}"
 	]
 },
@@ -24566,7 +24566,7 @@
 		"always": "Elixir",
 		"rare": "Giant's Glove"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Condition:V00=01 & Status:Self:Toad{",
 		"     Change Target:Self",
 		"     Toad",
@@ -24722,7 +24722,7 @@
 		"always": "Elixir",
 		"rare": "Cabin"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Condition:Status:Party Member:Float{",
 		"     Gravity 100",
 		"     }",
@@ -24804,7 +24804,7 @@
 		"always": "Phoenix Down",
 		"rare": "Flame Shield"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Atomic Ray,Snowstorm,Fight}",
 		"{Atomic Ray,Snowstorm,Fight}",
 		"Change Target:Whole party",
@@ -24880,7 +24880,7 @@
 		"always": "Giant's Axe",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Display Text: Charging up for Giga Flare!",
 		"Nothing",
 		"Giga Flare",
@@ -24951,7 +24951,7 @@
 		"always": "Stealth Robe",
 		"rare": "Dark Hood"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Wind Slash,Nothing}",
 		"{Fight,Flame,Specialty}",
 		"React:Death & Condition:Alone & V00=01{",
@@ -25034,7 +25034,7 @@
 		"always": "Hi-Potion",
 		"rare": "Shuriken"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Aero 2,Fight,Specialty}",
 		"{Hurricane,Fight,Specialty}"
 	]
@@ -25103,7 +25103,7 @@
 		"always": "Soft",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,Blaster,Specialty}"
 	]
 },
@@ -25178,7 +25178,7 @@
 		"always": "Luck Mallet",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fire2,Flame,Specialty}",
 		"Change Target:Self",
 		"Fire3",
@@ -25250,7 +25250,7 @@
 		"always": "Hi-Potion",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Fight,????,Specialty}"
 	]
 },
@@ -25329,7 +25329,7 @@
 		"always": "Ether",
 		"rare": "Guard Ring"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"{Missile,Surge Beam,Electromagnetic Field}"
 	]
 },
@@ -25404,7 +25404,7 @@
 		"always": "Genji Shield",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Condition:HP < 30000{",
 		"     Display Text: '...Butz...?",
 		"     Display Text: 'It's you isn't it!!",
@@ -25527,7 +25527,7 @@
 		"always": "Dragon Fang",
 		"rare": "Dragon Whip"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Condition:V00=01{",
 		"     {Maelstrom,Fight,Roulette}",
 		"     {Snowstorm,Atomic Ray,Thunder}",
@@ -25628,7 +25628,7 @@
 		"always": "Hi-Potion",
 		"rare": "Wall Ring"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Change Target:Single Enemy with Wall",
 		"{Flare,Holy,Flare}",
 		"Change Target:All Allies",
@@ -25720,7 +25720,7 @@
 		"always": "Elixir",
 		"rare": "Thief Glove"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Condition:V02=01{",
 		"     No Interrupt{",
 		"          Display Text: Necrofobia:  Die!!",
@@ -25869,7 +25869,7 @@
 		"always": "Genji Armor",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Condition:V02=01{",
 		"     Nothing",
 		"     }",
@@ -25990,7 +25990,7 @@
 		"always": "Phoenix Down",
 		"rare": "Wonder Rod"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Condition:HP < 10000{",
 		"     {Meteo,Fight,Nothing}",
 		"     }",
@@ -26084,7 +26084,7 @@
 		"always": "Nothing",
 		"rare": "Dragoon Spear"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Condition:??{",
 		"     No Interrupt{",
 		"          {Meteo,Almagest,Specialty}",
@@ -26201,7 +26201,7 @@
 		"always": "Pinwheel",
 		"rare": "Nothing"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Condition:??{",
 		"     No Interrupt{",
 		"          {Meteo,Almagest,Specialty}",
@@ -26290,7 +26290,7 @@
 		"always": "Nothing",
 		"rare": "Tempest Sword"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Condition:??{",
 		"     No Interrupt{",
 		"          {Meteo,Meteo,Specialty}",
@@ -26383,7 +26383,7 @@
 		"always": "Nothing",
 		"rare": "Ragnarok"
 	},
-	"ai_script_lines": [
+	"ai": [
 		"Condition:??{",
 		"     No Interrupt{",
 		"          {Meteo,Meteo,Specialty}",

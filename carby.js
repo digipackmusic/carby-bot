@@ -18,8 +18,13 @@ var jobData = [
     id: "316052390442958860",
     jobs: ["Mime", "Mime", "Mime", "Mime"]
 }];
+
+/// THIS IS NEW ================================
+
 var monsterFile = "monsterdata.json";
 var monsterData = [];
+
+/// THIS IS NOT NEW ============================
 
 bot.on('ready', function () {
     console.log('Logged in as %s - %s\n', bot.username, bot.id);
@@ -143,10 +148,16 @@ bot.on('message', function (user, userID, channelID, message, event) {
         if (lowMes.indexOf(".jobs") === 0) {
             jobs(user, userID, channelID, message, event);
         }
+
+/// THIS IS NEW ======================================
         //monster data search
         if (lowMes.indexOf(".info") === 0) {
             info(user, userID, channelID, message, event);
         }
+        if (lowMes.indexOf(".attributes") === 0) {
+            attributes(user, userID, channelID, message, event);
+        }
+/// THIS IS NOT NEW ==================================
     }
 });
 
@@ -682,6 +693,27 @@ function jobs(user, userID, channelID, message, event) {
     }
 }
 
+
+/// THIS IS NEW ======================================
+
+
+// attributes
+function attributes(user, userID, channelID, message, event) {
+    bot.sendMessage({
+        to: userID,
+        message: "Available attributes:\n`name, rpge_name, level, exp, hp, mp, gil, speed, atk, mag_power, atk_m, mag_m, def, mag_def, evade, mag_evade, status_immunity, elem_immunity, elem_absorb, auto_hit, weakness, immunity, creature_type, init_status, specialty, spells, control, blue, catch, drop, steal, ai`." 
+    });
+}
+
+
+function failQuery(destination) {
+    bot.sendMessage({
+        to: destination,
+        message: "Sorry, I couldn't find the information you requested. Acceptable syntax: `.info <attribute> monster_name`. Monster name can be either RPGe or Advance translation. For a list of attributes I accept, use `.attributes`. "
+    });
+}
+
+
 //monster data query
 function info(user, userID, channelID, message, event) {
     var args = message.split(" ");
@@ -691,22 +723,64 @@ function info(user, userID, channelID, message, event) {
         args[1] = "a"; // prevents crash on no args
     }
     if(monsterData[0][args[1]] === undefined) { // no query, try and find monster 
-        monster = args.slice(1, args.length).join(" ") // recreate monster name
-        if (monsterData.filter((x) => {
-            return x.name.includes(monster);
-        } === []) { // didn't find a monster, maybe we searched for RPGe name?
-            if (monsterData.filter((x) => {
-                return x.rpge_name.includes(monster);
-            } === []) { // no monster found :( 
+        monster = args.slice(1, args.length).join(" "); // recreate monster name
+        monsterList = monsterData.filter((x) => { 
+            return (x.name.includes(monster) || x.rpge_name.includes(monster));
+        });
+        if (monsterList === []) { // no monster found :( 
+            failQuery(channelID);        
+        } else { // got just a monster
+            if (monsterList.length > 1) { // which monster do we want?
+                monsters = "\n```";
+                for (var i = 0; i < monsterList.length; i++) {
+                    monsters = monsters + i + ") " + monsterList[i].name + "[" + monsterList[i].rpge_name + "]\n";
+                }
+                monsters = monsters + "```\n";
                 bot.sendMessage({
-                    to: channelID,
-                    message: "Sorry, I couldn't find any information on " + monster + "..."
+                    to: userID,
+                    message: "Here are all the results I have for \"" + monster + "\":" + monsters + "Please be more specific when querying."
+                }); // holy fuck this is janky
+            } else { // just one monster, good:
+                bot.sendMessage({
+                    to: userID,
+                    message: "Info for \"" + monster + "\":\n```" + JSON.stringify(monsterList[0], null, 2) + "```"
                 });
-            } else { // got an RPGe name
-                ///TODO: stuff goes here
+            }
+        }
+    } else { // there's a query, we can just do it
+        query = args[1];
+        monster = args.slice(2, args.length).join(" "); // set up args
+        if(monsterData[0][query] === undefined) { // user asked for nonexistent attribute
+            failQuery(channelID);
+        } else { // do the thing
+            monsterList = monsterData.filter((x) => {
+                return (x.name.includes(monster) || x.rpge_name.includes(monster));
+            });
+            if (monsterList === []) { // no monster found :(
+                failQuery(channelID);
+            } else { // got monster and query
+                if (monsterList.length > 1) { // which monster do we want?
+                    monsters = "\n```";
+                    for (var i = 0; i < monsterList.length; i++) {
+                        monsters = monsters + i + ") " + monsterList[i].name + "[" + monsterList[i].rpge_name + "]\n";
+                    }
+                    monsters = monsters + "```\n";
+                    bot.sendMessage({
+                        to: userID,
+                        message: "Here are all the results I have for \"" + monster + "\":" + monsters + "Please be more specific when querying."
+                    });
+                } else { // just one monster + query
+                    bot.sendMessage({
+                        to: userID,
+                        message: monster + "'s `" + query + "`:\n```" + JSON.stringify(monsterList[0][query], null, 2) + "```"
+                });
+            }
         }
     }
 }
+
+
+/// THIS IS NOT NEW =============================
 
 //misc functions
 function getIncInt(min, max) {
